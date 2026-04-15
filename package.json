@@ -1,0 +1,11 @@
+{
+  "name": "@mira-ai/cli",
+  "version": "1.0.0",
+  "description": "Mira personal assistant CLI",
+  "type": "module",
+  "bin": { "mira": "./bin/index.js" },
+  "dependencies": { "commander": "^12.0.0" },
+  "engines": { "node": ">=24.0.0" },
+  "files": ["bin/", "src/"],
+  "publishConfig": { "access": "public" }
+}
