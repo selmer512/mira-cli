@@ -2,7 +2,7 @@ import { spawnSync } from 'node:child_process'
 import path from 'node:path'
 import fs from 'node:fs'
 
-const REPO_URL = '<https://github.com/selmer512/mira.git>'
+const REPO_URL = 'https://github.com/selmer512/mira.git'
 
 export function createCommand(type) {
   if (type !== 'birth') {
